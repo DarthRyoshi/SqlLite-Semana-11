@@ -16,8 +16,15 @@ El proyecto contiene las siguientes clases principales:
 - **DatabaseHelper.java**: Clase que gestiona la creación y acceso a la base de datos SQLite.
 - **DataAdapter.java**: Adaptador para el `RecyclerView` que gestiona la visualización de los datos en la lista.
 
-## Cómo Ejecutar la Aplicación
-1. **Clonar el Repositorio**:
+## Requisitos
+- **Android Studio**: La aplicación debe ejecutarse en Android Studio (recomendado versión 4.0 o superior).
+- **SDK de Android**: Nivel mínimo de API 16 (Android 4.1).
+- **Dispositivo Android o Emulador**: Configurado para pruebas.
+
+## Configuración y Ejecución en Android Studio
+
+### 1. Clonar el Repositorio
+   Clona el repositorio en tu computadora local con el siguiente comando:
    ```bash
    git clone <URL_DEL_REPOSITORIO>
    cd <NOMBRE_DEL_DIRECTORIO>
